@@ -3,57 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sign up Form</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
     <div class="sidebar">
         sidebar
+        <div class="logo-container">
        <div class="odin-logo"> 
-        odin logo
-        <img src="Images\odin-lined.png">
+       
+        <img src="Images\odin-lined.png" > Odin
+       
+        </div>
         </div>
     </div>
 
-    <div class="right-side">
+    <div class="rightside">
         <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</p>
         <p>You <em>know</em> you want to.</p>
 
         <form action="" method="get" class="signup-form">
-            <div class="form-col first">
-                <label for="first-name" >First Name</label>
-                <input id="first-name" name="first-name" type="text" />
+            <p>Let's do this!</p>
+            <div class="column-container">
+                <div class="first-col-container">
+                    <div class="form-col">
+
+                        <label for="first-name" >First Name</label>
+                        <input id="first-name" name="first-name" type="text" />
+                    </div>
+                    <div class="form-col">
+                        <label for="email" >Email</label>
+                        <input id="email" name="email" type="email" />
+                    </div>
+                    <div class="form-col">
+                        <label for="password" >Password</label>
+                        <input id="password" name="password" type="text" required/>
+                    </div>
+                </div>
+
+                <div class="second-col-container">
+                    <div class="form-col second">
+                        <label for="last-name" >Last Name</label>
+                        <input id="last-name" name="last-name" type="text" />
+                    </div>
+                    <div class="form-col second">
+                        <label for="phone" >Phone Number</label>
+                        <input id="first-name" name="first-name" type="text" />
+                    </div>
+                    <div class="form-col second">
+                        <label for="first-name" >Confirm Password</label>
+                        <input id="first-name" name="first-name" type="text" />
+                    </div>
+                </div>
             </div>
-            <div class="form-col first">
-                <label for="email" >Email</label>
-                <input id="email" name="email" type="email" />
-            </div>
-            <div class="form-col first">
-                <label for="password" >Password</label>
-                <input id="password" name="password" type="text" required/>
-            </div>
-            <div class="form-col second">
-                <label for="last-name" >Last Name</label>
-                <input id="last-name" name="last-name" type="text" />
-            </div>
-            <div class="form-col second">
-                <label for="phone" >Phone Number</label>
-                <input id="first-name" name="first-name" type="text" />
-            </div>
-            <div class="form-col second">
-                <label for="first-name" >Confirm Password</label>
-                <input id="first-name" name="first-name" type="text" />
-            </div>
-    
-            <div class="form-col">
+        </form>
+            <div class="create-account">
                 <button>Create Account</button>
                 <div>
                     Already have an account? <a href ="index.html">Login</a>
                 </div>
             </div>
-        </form>
-    </div>
+
+        </div>
+
+
+
 
     
 
