@@ -6,6 +6,7 @@ body{
     width: 100%;
     margin: 0;
     padding: 0;
+    font-size: 1.5rem;
 }
 
 .sidebar{
@@ -45,9 +46,36 @@ body{
     width: 60%;
 }
 
+.rightside:first-child{
+    padding-top: 50px;
+}
+
+.intro-text{
+    font-size: 2.5rem;
+}
+
+.intro-text.first,
+.intro-text.second{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.intro-text.first{
+    padding-top: 7.5%;
+
+}
+
+.intro-text.second{
+    padding-bottom: 7.5%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
 
 .form-col{
     border-color: #E5E7EB;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 
@@ -55,44 +83,33 @@ body{
 .signup-form{
     background-color: #fff;
     padding: 20px;
-    margin-top: 30%;
+    margin-top: 5%;
     gap: 20px;
     box-shadow:0 4px 6px rgba(0,0,0,0.1);
-  
-
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .column-container{
     display: flex;
-    /* flex-direction: row;
-    flex-wrap: wrap; */
-    /* flex: 1 1 45%; */
     gap: 10px;
-    
 }
 
-/* .form-col{
-    display: flex;
-    flex-direction: column;
-    flex: 1 1 45%;
-    gap: 10px;
-} */
-
 .form-col{
-    /* flex-direction: row; */
-    align-items: flex-start;
     margin-bottom: 10px;
 }
 
-/* .form-col label{
-    text-align: right;
-    
-    padding-right: 10px;
-} */
+.first-col-container{
+    padding-right: 10%;
+}
 
 .first-col-container input{
     display: flex;
     align-items: flex-end;
+}
+
+.second-col-container{
+    padding-left: 10%;
 }
 
 .second-col-container input{
@@ -100,10 +117,26 @@ body{
     align-items: flex-end;
 }
 
+.create-account{
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.create-account > div{
+    padding-top: 30px;
+}
+
 
 button{
     background-color:#596D48;
-    color:antiquewhite
+    color:antiquewhite;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 7px;
+    padding: 10px 40px;
+    cursor: pointer;
+    
 }
 
 a{
