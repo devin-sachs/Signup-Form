@@ -74,8 +74,9 @@ body{
 
 .form-col{
     border-color: #E5E7EB;
-    padding-left: 10%;
-    padding-right: 10%;
+    /* padding-left: 10%;
+    padding-right: 10%; */
+    margin-bottom: 30px;
 }
 
 
@@ -93,10 +94,6 @@ body{
 .column-container{
     display: flex;
     gap: 10px;
-}
-
-.form-col{
-    margin-bottom: 10px;
 }
 
 .first-col-container{
@@ -141,4 +138,28 @@ button{
 
 a{
     color: #596D48;
+}
+
+
+.form-col input[type='text'],
+.form-col input[type='email'] {
+  background-color: #FFFFFF;
+  border: 1px solid #E5E7EB;
+  border-radius: 3px;
+  width: 100%;
+  padding: 7px;
+  font-size: 14px;
+}
+
+/* .form-col input[type='email']:invalid {
+    border: 1px;
+    color: #D55C5F;
+    box-shadow: none;
+} */
+
+.form-col input[type='text']:invalid,
+.form-col input[type='email']:invalid {
+  border: 1px solid #D55C5F;
+  color: #D55C5F;
+  box-shadow: none;
 }
