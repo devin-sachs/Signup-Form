@@ -173,3 +173,10 @@ a{
   color: #D55C5F;
   box-shadow: none;
 }
+
+.form-col input[type='text']:focus,
+.form-col input[type='email']:focus {
+    border-color: #61afd3;
+    box-shadow: 0 0 10px #61afd3;
+    outline: none;
+}
